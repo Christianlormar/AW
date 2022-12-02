@@ -1,0 +1,56 @@
+/*
+    Proyecto
+*/
+
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body{
+    background-image: url(./mini-pc-xcy-x41-2105455-1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header,footer{
+    background-color: mediumaquamarine;
+    color: mediumslateblue;
+    text-align: center;
+    padding: 20px;
+    border: solid mediumslateblue;
+    border-radius: 50px;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Dancing Script';
+}
+
+.separador{
+    padding: 10px;
+}
+
+h2{
+    background-image: radial-gradient(indigo, mediumslateblue);
+    color: indianred;
+    text-align: center;
+    border: solid indianred;
+    font-family: 'Rubik Bubbles';
+}
+
+.parrafo{
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.Wiki{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+}
+
+.Wiki img{
+    width: 300px;
+    margin: auto;
+    float: left;
+}
